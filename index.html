@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1>
+            Student Records
+        </h1>
+        <form>
+            <div class="form-group col-md-6">
+                <label for="Name">Name</label>
+                <input required class="form-control" type="text" id="Name">
+                <label for="Branch">Branch</label>
+                <input required class="form-control" type="text" id="branch">
+        
+                <label for="Contact">Address</label>
+                <input required class="form-control" type="text" id="address">
+        
+                <label for="Contact">Contact</label>
+                <input required class="form-control" type="text" id="contact">
+                <br>
+                <button class="btn btn-primary" type="reset" onclick="addData(this)">Add</button>
+            </div>
+           
+          </form>
+          
+    </div>
+    
+      <div id="tab">
+        <table id="list" class="table">
+          <thead>
+            <tr>
+              <td>Name<td>Branch<td>Address<td>Contact
+            </tr>
+          </thead>
+        </table>
+</body>
+</html>
